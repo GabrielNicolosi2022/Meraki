@@ -40,11 +40,11 @@ a {
   width: 100vw;
   display: flex;
   flex-direction: column;
-  background: rgb(222, 160, 87);
+  background: rgb(222, 148, 61);
   background: linear-gradient(
     180deg,
-    rgba(222, 160, 87, 1) 50%,
-    rgba(224, 216, 176, 1) 100%
+    rgba(222, 148, 61, 1) 0%,
+    rgba(222, 175, 119, 1) 100%
   );
 }
 h1 {
