@@ -39,7 +39,7 @@
             ><img
               src="./assets/images/logo-meraki.svg"
               alt="Logo Meraki"
-              class="w-50 logo__img"
+              class="w-50"
           /></a>
           <button
             class="navbar-toggler"
@@ -107,26 +107,44 @@
     </header>
     <!-- fin del header -->
     <!-- comienzo del main -->
-    <main class="main">
+    <main class="main main main__principal">
       <div class="container">
         <div class="row">
-          <div class="col-12 mx-auto">
-            <h1 class="title">Meraki</h1>
-            <section class="main__home__div-img mx-auto">
-              <img
-                class="main__home__div-img--img"
-                src="./assets/images/img_presentacion.jpg"
-                alt="Imágen de presentación"
-              />
-            </section>
-            <section class="main__home__div-vid">
-              <video
-                class="main__home__div-vid--video"
-                src="./assets/video/presentacion.mp4"
-                controls
-                autoplay
-              ></video>
-            </section>
+          <div class="col mx-auto pt-3">
+            <h1 class="h1 display-1 text-center">Meraki</h1>
+            <div
+              class="card my-5 bg-transparent border-0 mx-auto"
+              style="max-width: 992px"
+            >
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="./assets/images/img_presentacion.jpg"
+                    class="img-fluid rounded-5 img-principal"
+                    alt="Imágen de presentación"
+                  />
+                </div>
+                <div class="col-md-6 my-auto">
+                  <div class="card-body">
+                    <p class="card-text display-6 text-sm-center text-lg-start">
+                      Ponele vida a tus paredes, poneles un toque diferente,
+                      poneles Meraki.
+                    </p>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col mx-auto">
+              <section class="main__home__div-vid">
+                <video
+                  class=""
+                  src="./assets/video/presentacion.mp4"
+                  controls
+                  autoplay
+                ></video>
+              </section>
+            </div>
             <!-- Carrousel Clientes -->
             <section class="main__home__div-clientes">
               <h2 class="main__home__div-clientes--title">Nuestros Clientes</h2>
@@ -240,7 +258,8 @@
                     ><img
                       class="foot__net__icons"
                       src="./assets/icons/png/002-facebook-1.png"
-                      alt="Icono facebook" />facebook</a
+                      alt="Icono facebook"
+                    />facebook</a
                   >
                 </li>
                 <li class="list-group-item bg-black text-light">
@@ -250,11 +269,11 @@
                     ><img
                       class="foot__net__icons"
                       src="./assets/icons/png/instagram.png"
-                      alt="Icono instagram" />instagram</a
+                      alt="Icono instagram"
+                    />instagram</a
                   >
                 </li>
                 <li class="list-group-item bg-black text-light">
-                  
                   <a href="https://wa.me/540111530022007"
                     >Comunicate con nosotros<img
                       class="foot__net__icons"

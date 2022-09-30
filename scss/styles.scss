@@ -3,7 +3,6 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
-/* inicio estilos generales */
 /* paleta de colores
 #E0D8B0
 #FCFFE7
@@ -12,7 +11,7 @@
 
 @font-face {
   font-family: Bebas;
-  src: url(./assets/fonts/bebas-neue.regular.woff);
+  src: url(/assets/fonts/bebas-neue.regular.woff);
 }
 
 body {
@@ -23,70 +22,58 @@ a {
   text-decoration: none;
   color: #fcffe7;
 }
-
-/* fin estilos generales */
-/* Comienzo del header */
-
 .main {
-  position: relative;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
+  margin-top: 16vh; 
   background: #de943d;
   background: linear-gradient(180deg, #de943d 0%, #deaf77 100%);
 }
 
 h1 {
   font-family: Bebas;
-  font-weight: lighter;
-  font-size: 2.5rem;
-  letter-spacing: 1px;
+  // font-size: 2.5rem;
+  letter-spacing: 3px;
   text-shadow: 2px 2px 5px;
-  text-transform: uppercase;
-  text-align: center;
   color: #fcffe7;
 }
+/* fin estilos generales */
 
 /* main home */
-.main__home--container {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
+.img-principal{
+  box-shadow: 10px 10px 15px #c3b0a0;
 }
+// .main__home__div-img,
+// .main__home__div-vid,
+// .main__home__div-clientes {
+//   text-align: center;
+//   padding-bottom: 0.3em;
+// }
 
-.main__home__div-img,
-.main__home__div-vid,
-.main__home__div-clientes {
-  text-align: center;
-  padding-bottom: 0.3em;
-}
+// .main__home__div-img {
+//   width: 63%;
+// }
 
-.main__home__div-img {
-  width: 63%;
-}
+// .main__home__div-img--img {
+//   width: 100%;
+//   border-radius: 60px;
+//   box-shadow: -10px -10px 15px #c3b0a0;
+// }
 
-.main__home__div-img--img {
-  width: 100%;
-  border-radius: 60px;
-  box-shadow: -10px -10px 15px #c3b0a0;
-}
+// .main__home__div-vid--video {
+//   width: 70%;
+// }
 
-.main__home__div-vid--video {
-  width: 70%;
-}
+// .main__home__div-clientes {
+//   display: flex;
+//   flex-direction: column;
+// }
 
-.main__home__div-clientes {
-  display: flex;
-  flex-direction: column;
-}
+// .main__home__div-clientes--title {
+//   text-align: center;
+//   font-size: 1rem;
+//   color: #fcffe7;
+// }
 
-.main__home__div-clientes--title {
-  text-align: center;
-  font-size: 1rem;
-  color: #fcffe7;
-}
-
+/* main us */
 .main__us__container {
   position: relative;
   height: 100vh;
@@ -140,7 +127,7 @@ h1 {
   padding: 0.3em 0.3em 1em;
 }
 
-/* main faqs */
+// /* main faqs */
 .main__faqs__container h2 {
   font-size: 1rem;
   font-style: italic;
@@ -211,13 +198,3 @@ select {
   width: 189.5px;
 }
 /* Fin del main */
-
-/* Comienzo del footer */
-.foot__net__icons {
-  padding: 5px;
-}
-
-.foot__map,
-.foot__contact {
-  color: #fcffe7;
-}
