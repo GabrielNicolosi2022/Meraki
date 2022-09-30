@@ -1,7 +1,0 @@
- Flexbox
-+Grid
-+@media queries (Responsive)
-+Gradientes
-+Transiciones
-+Transformaciones
-+Animaciones

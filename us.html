@@ -32,30 +32,15 @@
   </head>
   <body>
     <!-- inicio del header -->
-    <header class="header">
-      <div class="logo">
-        <a href="./index.html"
-          ><img
-            src="./assets/images/logo-meraki.svg"
-            alt="Logo Meraki"
-            class="logo__img"
-        /></a>
-      </div>
-      <!-- <nav class="header__nav">
-        <a class="header__nav__pages--btn_pg active-tab" href="./index.html"
-          >Inicio</a
-        >
-        <a class="header__nav__pages--btn_pg" href="./us.html">Nosotros</a>
-        <a class="header__nav__pages--btn_pg" href="./jobs.html">Trabajos</a>
-        <a class="header__nav__pages--btn_pg" href="./faqs.html"
-          >Preguntas Frecuentes</a
-        >
-        <a class="header__nav__pages--btn_form" href="./contact.html"
-          >Contactanos</a
-        >
-      </nav> -->
-      <nav class="navbar navbar-expand-lg p-3">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"
+            ><img
+              src="./assets/images/logo-meraki.svg"
+              alt="Logo Meraki"
+              class="w-50 logo__img"
+          /></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -68,14 +53,17 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./index.html"
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
                   >Inicio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="./us.html">Nosotros</a>
+                <a class="nav-link" href="./us.html">Nosotros</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -103,13 +91,11 @@
                       >Murales</a
                     >
                   </li>
+                  <li><hr class="dropdown-divider" /></li>
                   <li>
                     <a class="dropdown-item" href="./jobs/mas.html">Más</a>
                   </li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./faqs.html">Preguntas Frecuentes</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./contact.html">Contactanos</a>
@@ -165,65 +151,88 @@
     </main>
     <!-- fin del main -->
     <!-- comienzo del footer -->
-    <footer class="foot">
-      <div class="foot__net">
-        <div class="foot__net__content">
-          Seguinos en nuestras redes
-          <div class="foot__net__content--face">
-            <a
-              href="https://www.facebook.com/Inmensa.cuando.quieres"
-              target="_blank"
-              ><img
-                class="foot__net__icons"
-                src="./assets/icons/png/002-facebook-1.png"
-                alt="Icono facebook"
-              />facebook</a
-            >
+    <footer class="bg-black">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <!-- card redes -->
+          <div class="col-lg-4 text-center">
+            <div class="card bg-black text-light">
+              <div class="card-header">Seguinos en nuestras redes</div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-black text-light">
+                  <a
+                    href="https://www.facebook.com/Inmensa.cuando.quieres"
+                    target="_blank"
+                    ><img
+                      class="foot__net__icons"
+                      src="./assets/icons/png/002-facebook-1.png"
+                      alt="Icono facebook" />facebook</a
+                  >
+                </li>
+                <li class="list-group-item bg-black text-light">
+                  <a
+                    href="https://www.instagram.com/meraki_artecolor_hechocon_amor/"
+                    target="_blank"
+                    ><img
+                      class="foot__net__icons"
+                      src="./assets/icons/png/instagram.png"
+                      alt="Icono instagram" />instagram</a
+                  >
+                </li>
+                <li class="list-group-item bg-black text-light">
+                  
+                  <a href="https://wa.me/540111530022007"
+                    >Comunicate con nosotros<img
+                      class="foot__net__icons"
+                      src="./assets/icons/png/003-whatsapp.png"
+                      alt="Icono whatsapp"
+                  /></a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="foot__net__content--inst">
-            <a
-              href="https://www.instagram.com/meraki_artecolor_hechocon_amor/"
-              target="_blank"
-              ><img
-                class="foot__net__icons"
-                src="./assets/icons/png/instagram.png"
-                alt="Icono instagram"
-              />instagram</a
-            >
+          <!-- card mapa del sitio -->
+          <div class="col-lg-4 text-center">
+            <div class="card bg-black text-light">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-black text-light">
+                  <a href="./index.html">Inicio</a>
+                </li>
+                <li class="list-group-item bg-black text-light">
+                  <a href="./us.html">Nosotros</a>
+                </li>
+                <li class="list-group-item bg-black text-light">
+                  <a href="./jobs.html">Trabajos</a>
+                </li>
+                <li class="list-group-item bg-black text-light">
+                  <a href="./faqs.html">Preguntas Frecuentes</a>
+                </li>
+                <li class="list-group-item bg-black text-light">
+                  <a href="./contact.html">Contactanos</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="foot__net__content--wats">
-            <a href="https://wa.me/540111530022007"
-              >Comunicate con nosotros<img
-                class="foot__net__icons"
-                src="./assets/icons/png/003-whatsapp.png"
-                alt="Icono whatsapp"
-            /></a>
+          <!-- card contacto -->
+          <div class="col-lg-4 text-center py-2">
+            <div class="card bg-black text-light mb-3">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13138.813400637386!2d-58.6005575663549!3d-34.586371987421884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9a5a147c5a3%3A0xe6a621650b86b1c!2sMart%C3%ADn%20Coronado%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1662148689673!5m2!1ses!2sar"
+                width="600"
+                height="150"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                class="card-img-top foot__contact--gmap"
+              ></iframe>
+              <div class="card-body">
+                <p class="card-text">
+                  Martín Coronado - Buenos Aires - Argentina
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="foot__map">
-        <div class="foot__map--content">
-          <a href="./index.html">Inicio</a>
-          <a href="./us.html">Nosotros</a>
-          <a href="./jobs.html">Trabajos</a>
-          <a href="./faqs.html">Preguntas Frecuentes</a>
-          <a href="./contact.html">Contactanos</a>
-        </div>
-      </div>
-      <div class="foot__contact">
-        <div class="foot__contact--gmap">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13138.813400637386!2d-58.6005575663549!3d-34.586371987421884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9a5a147c5a3%3A0xe6a621650b86b1c!2sMart%C3%ADn%20Coronado%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1662148689673!5m2!1ses!2sar"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-        <div class="foot__contact--items">
-          <p>Martín Coronado - Buenos Aires - Argentina</p>
         </div>
       </div>
     </footer>
