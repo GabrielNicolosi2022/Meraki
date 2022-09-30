@@ -8413,17 +8413,6 @@ h1, .h1 {
 .main__principal-img {
   box-shadow: 10px 10px 15px #c3b0a0; }
 
-/* main us */
-.main__us__container {
-  position: relative;
-  height: 100vh;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  overflow: auto; }
-
 /* main jobs */
 .main__jobs__container,
 .main__faqs__container {
