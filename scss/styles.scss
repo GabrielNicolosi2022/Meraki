@@ -35,6 +35,10 @@ h1 {
   text-shadow: 2px 2px 5px;
   color: #fcffe7;
 }
+h2 {
+  font-size: 1rem;
+  font-style: italic;
+}
 /* fin estilos generales */
 
 /* main home */
@@ -84,23 +88,13 @@ h1 {
   padding: 0.3em 0.3em 1em;
 }
 
-// /* main faqs */
-.main__faqs__container h2 {
-  font-size: 1rem;
-  font-style: italic;
-}
+/* main faqs */
 
-.main__faqs__container--question,
-.main__faqs__container--response {
-  padding-top: 0.5em;
-  font-size: 1rem;
-}
-
-.main__faqs__container--question {
+.main__faqs--question {
   font-weight: 900;
 }
 
-.main__faqs__container--response {
+.main__faqs--response {
   padding-left: 1em;
   font-weight: 500;
   font-style: italic;
