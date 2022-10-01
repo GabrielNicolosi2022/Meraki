@@ -31,18 +31,16 @@
     <title>Meraki - arte hecho con amor</title>
   </head>
   <body>
-    <!-- comienzo del header -->
-    <header class="header">
-      <div class="logo">
-        <a href="../index.html"
-          ><img
-            src="../assets/images/logo-meraki.svg"
-            alt="Logo Meraki"
-            class="logo__img"
-        /></a>
-      </div>
-      <nav class="navbar navbar-expand-lg p-3">
+    <!-- inicio del header -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"
+            ><img
+              src="./assets/images/logo-meraki.svg"
+              alt="Logo Meraki"
+              class="w-50"
+          /></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -55,18 +53,21 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html"
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
                   >Inicio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../us.html">Nosotros</a>
+                <a class="nav-link" href="./us.html">Nosotros</a>
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle active"
+                  class="nav-link dropdown-toggle"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -76,30 +77,28 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="./cuadros.html"
+                    <a class="dropdown-item" href="./jobs/cuadros.html"
                       >Cuadros</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./tripticos.html"
+                    <a class="dropdown-item" href="./jobs/tripticos.html"
                       >Trípticos</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item active" href="./murales.html"
+                    <a class="dropdown-item" href="./jobs/murales.html"
                       >Murales</a
                     >
                   </li>
+                  <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item" href="./mas.html">Más</a>
+                    <a class="dropdown-item" href="./jobs/mas.html">Más</a>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../faqs.html">Preguntas Frecuentes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../contact.html">Contactanos</a>
+                <a class="nav-link" href="./contact.html">Contactanos</a>
               </li>
             </ul>
           </div>
