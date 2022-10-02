@@ -8418,39 +8418,17 @@ h2, .h2 {
   box-shadow: 10px 10px 15px #c3b0a0; }
 
 /* main jobs */
-.main__jobs__container,
-.main__faqs__container {
-  width: 90vw;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto; }
-
-.main__jobs__container--cuadros,
-.main__jobs__container--tripticos,
-.main__jobs__container--murales {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly; }
-
-.main__jobs__container--murales {
-  justify-content: center; }
-
-.main__jobs__container--subtitles {
-  font-size: 1rem; }
-
 .img__jobs {
-  width: 160px;
-  padding: 0.3em; }
-
-.main__jobs__container--tripticos img {
-  height: 94.29px; }
+  height: 100px; }
 
 .img__jobs--murales {
-  height: 166px;
-  padding: 0.3em 0.3em 1em; }
+  height: 166px; }
+
+.img__jobs:hover,
+.img__jobs--murales:hover {
+  transform: scale(1.5);
+  box-shadow: 10px 10px 15px #ebe1d8, -10px -10px 15px #ebe1d8;
+  transition: all 5s; }
 
 /* main faqs */
 .main__faqs--question {
