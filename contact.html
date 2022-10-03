@@ -56,10 +56,7 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <!-- Botón inicio -->
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  aria-current="page"
-                  href="./index.html"
+                <a class="nav-link" aria-current="page" href="./index.html"
                   >Inicio</a
                 >
               </li>
@@ -115,62 +112,124 @@
     </header>
     <!-- fin del header -->
     <!-- comienzo del main -->
-    <main class="main main__contact">
-      <section class="main__contact__form">
-        <form action="" id="formulario">
-          <p class="main__contact__form--title">¡Llena el formulario!</p>
-          <label for="name">Nombre</label>
-          <input
-            type="text"
-            name="name"
-            placeholder="Ingrese su nombre"
-            required
-          />
-          <label for="surname">Apellido</label>
-          <input
-            type="text"
-            name="surname"
-            placeholder="Ingrese su apellido"
-            required
-          />
-          <label for="location">Localidad</label>
-          <input
-            type="text"
-            name="location"
-            placeholder="Ingrese su localidad"
-            required
-          />
-          <label for="province">Provincia</label>
-          <input
-            type="text"
-            name="province"
-            placeholder="Ingrese su provincia"
-            required
-          />
-          <label for="email">Correo electrónico</label>
-          <input
-            type="email"
-            name="email"
-            placeholder="Ingrese su correo electrónico"
-            required
-          />
-          <select name="services" id="">
-            <option value="query">Consulta</option>
-            <option value="comments">Comentarios</option>
-          </select>
-          <textarea
-            name="mensaje"
-            id=""
-            cols="44"
-            rows="15"
-            required
-          ></textarea>
-          <label for="file"></label>
-          <input type="file" name="file" id="" />
-          <input class="reset" type="reset" value="limpiar formulario" />
-          <input class="submit" type="submit" value="enviar formulario" />
-        </form>
-      </section>
+    <main class="main">
+      <div class="container main__contact__form">
+        <div class="row">
+          <div class="col-6 mx-auto py-5">
+            <p class="h5 fw-bold pb-1 text-light text-center">
+              ¡Llena el formulario!
+            </p>
+            <form class="row g-3">
+              <div class="col">
+                <div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Nombre"
+                    aria-label="First name"
+                    required
+                  />
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Apellido"
+                    aria-label="Last name"
+                    required
+                  />
+                  <label for="inputAddress2" class="form-label"
+                    >Address 2</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputAddress2"
+                    placeholder="Dirección"
+                    required
+                  />
+                  <label for="inputAddress" class="form-label">Address</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputAddress"
+                    placeholder="Departamento, Local, Oficina"
+                    required
+                  />
+                  <label for="inputCity" class="form-label">City</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Localidad"
+                    id="inputCity"
+                    required
+                  />
+                  <label for="inputState" class="form-label">State</label>
+                  <select
+                    id="inputState"
+                    placeholder="Provincia"
+                    class="form-select"
+                  >
+                    <option selected>Buenos Aires</option>
+                    <option>Buenos Aires Interior</option>
+                    <option>CABA</option>
+                    <option>Chubut</option>
+                    <option>Córdoba</option>
+                    <option>Entre Rios</option>
+                    <option>La Pampa</option>
+                    <option>Mendoza</option>
+                    <option>Santa Fe</option>
+                  </select>
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email"
+                    id="inputEmail4"
+                    required
+                  />
+                  <label for="inputContact" class="form-label">State</label>
+                  <select
+                    id="inputContact"
+                    placeholder="Motivo de contacto"
+                    class="fw-bolder form-select"
+                  >
+                    <option selected>Consulta</option>
+                    <option>Comentarios</option>
+                  </select>
+                  <textarea
+                    class="form-control"
+                    id="floatingTextarea2"
+                    style="height: 200px"
+                    placeholder="Escriba su consulta o comentario aquí"
+                    required
+                  ></textarea>
+                  <label for="floatingTextarea2">Comments</label>
+                  <label for="formFileMultiple" class="form-label"
+                    >Enviar Archivos</label
+                  >
+                  <input
+                    class="form-control"
+                    type="file"
+                    id="formFileMultiple"
+                    multiple
+                  />
+                  <div class="row">
+                    <div
+                      class="d-grid gap-2 d-md-flex justify-content-md-center justify-content-lg-end"
+                    >
+                      <button class="btn btn-primary me-md-2" type="reset">
+                        Limpiar Formulario
+                      </button>
+                      <button class="btn btn-primary" type="submit">
+                        Enviar Formulario
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </main>
     <!-- fin del main -->
     <!-- comienzo del footer -->

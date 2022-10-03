@@ -71,28 +71,9 @@ h2 {
 }
 
 /* main contact */
-.main__contact {
-  min-height: min-content;
-}
-
-.main__contact__form {
-  position: relative;
-  margin: 15px auto;
-  padding: 1em 0;
-  width: 55vw;
-  background-image: url(/assets/images/img_001.jpg);
-}
-
-.main__contact__form--title {
-  color: #fcffe7;
-  font-weight: bold;
-  padding-bottom: 1em;
-  text-align: center;
-}
-
-#formulario {
-  padding: 0 0.5em;
-}
+// .main__contact__form--title {
+//   color: #fcffe7;
+// }
 
 .main__contact__form label {
   display: none;
@@ -101,21 +82,11 @@ h2 {
 .main__contact__form input,
 select {
   display: block;
-  width: 189.5px;
   margin: 0.5em 0;
   font-weight: bold;
 }
 
-.main__contact__form textarea {
-  width: 189.5px;
-  height: 180px;
-}
-
-.main__contact__form input.reset,
-.main__contact__form input.submit {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 189.5px;
-}
+// .main__contact__form input.reset,
+// .main__contact__form input.submit {
+// }
 /* Fin del main */
