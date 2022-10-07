@@ -1,0 +1,12 @@
+/* main contact */
+.main__contact__form {
+  label {
+    display: none;
+  }
+  input,
+  select {
+    display: block;
+    margin: 0.5em 0;
+    font-weight: bold;
+  }
+}

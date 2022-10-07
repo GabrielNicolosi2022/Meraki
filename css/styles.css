@@ -8386,6 +8386,7 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+/* Comienzo estilos generales */
 @font-face {
   font-family: Bebas;
   src: url(../assets/fonts/bebas-neue.regular.woff); }
@@ -8413,9 +8414,18 @@ h2, .h2 {
   font-style: italic; }
 
 /* fin estilos generales */
-/* main home */
+/* main principal */
 .main__principal-img {
   box-shadow: 10px 10px 15px #c3b0a0; }
+
+/* main faqs */
+.main__faqs--question {
+  font-weight: 900; }
+
+.main__faqs--response {
+  padding-left: 1em;
+  font-weight: 500;
+  font-style: italic; }
 
 /* main jobs */
 .img__jobs {
@@ -8431,15 +8441,7 @@ h2, .h2 {
     box-shadow: 10px 10px 15px #ebe1d8, -10px -10px 15px #ebe1d8;
     transition: all 5s; }
 
-/* main faqs */
-.main__faqs--question {
-  font-weight: 900; }
-
-.main__faqs--response {
-  padding-left: 1em;
-  font-weight: 500;
-  font-style: italic; }
-
+/* main contact */
 .main__contact__form label {
   display: none; }
 
@@ -8448,6 +8450,3 @@ h2, .h2 {
   display: block;
   margin: 0.5em 0;
   font-weight: bold; }
-
-/* main contact */
-/* Fin del main */

@@ -1,0 +1,17 @@
+/* main jobs */
+.img__jobs {
+  height: 100px;
+  &--murales {
+    height: 166px;
+    &:hover {
+      transform: scale(1.5);
+      box-shadow: 10px 10px 15px #ebe1d8, -10px -10px 15px #ebe1d8;
+      transition: all 5s;
+    }
+  }
+  &:hover {
+    transform: scale(1.5);
+    box-shadow: 10px 10px 15px #ebe1d8, -10px -10px 15px #ebe1d8;
+    transition: all 5s;
+  }
+}

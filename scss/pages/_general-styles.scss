@@ -1,0 +1,31 @@
+/* Comienzo estilos generales */
+@font-face {
+  font-family: Bebas;
+  src: url(../assets/fonts/bebas-neue.regular.woff);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fcffe7;
+}
+.main {
+  margin-top: 16vh;
+  background: #de943d;
+  background: linear-gradient(180deg, #de943d 0%, #deaf77 100%);
+}
+
+h1 {
+  font-family: Bebas;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 5px;
+  color: #fcffe7;
+}
+h2 {
+  font-size: 1rem;
+  font-style: italic;
+}
+/* fin estilos generales */
