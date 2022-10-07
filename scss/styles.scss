@@ -1,17 +1,17 @@
-// Include any default variable overrides here (though functions won't be available)
-
-@import "../node_modules/bootstrap/scss/bootstrap";
-
-// Then add additional custom code here
 /* paleta de colores
 #E0D8B0
 #FCFFE7
 #DEA057
 #CE9461 */
 
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
 @font-face {
   font-family: Bebas;
-  src: url(/assets/fonts/bebas-neue.regular.woff);
+  src: url(../assets/fonts/bebas-neue.regular.woff);
 }
 
 body {
@@ -41,48 +41,56 @@ h2 {
 /* fin estilos generales */
 
 /* main home */
-.main__principal-img {
-  box-shadow: 10px 10px 15px #c3b0a0;
+.main__principal {
+  &-img {
+    box-shadow: 10px 10px 15px #c3b0a0;
+  }
 }
 
 /* main jobs */
 .img__jobs {
   height: 100px;
-}
-.img__jobs--murales {
-  height: 166px;
-}
-.img__jobs:hover,
-.img__jobs--murales:hover {
-  transform: scale(1.5);
-  box-shadow: 10px 10px 15px #ebe1d8, -10px -10px 15px #ebe1d8;
-  transition: all 5s;
+  &--murales {
+    height: 166px;
+    &:hover {
+      transform: scale(1.5);
+      box-shadow: 10px 10px 15px #ebe1d8, -10px -10px 15px #ebe1d8;
+      transition: all 5s;
+    }
+  }
+  &:hover {
+    transform: scale(1.5);
+    box-shadow: 10px 10px 15px #ebe1d8, -10px -10px 15px #ebe1d8;
+    transition: all 5s;
+  }
 }
 
 /* main faqs */
-.main__faqs--question {
-  font-weight: 900;
+.main__faqs {
+  &--question {
+    font-weight: 900;
+  }
+  &--response {
+    padding-left: 1em;
+    font-weight: 500;
+    font-style: italic;
+  }
 }
 
-.main__faqs--response {
-  padding-left: 1em;
-  font-weight: 500;
-  font-style: italic;
+.main__contact__form {
+  label {
+    display: none;
+  }
+  input,
+  select {
+    display: block;
+    margin: 0.5em 0;
+    font-weight: bold;
+  }
 }
-
 /* main contact */
 // .main__contact__form--title {
 //   color: #fcffe7;
 // }
 
-.main__contact__form label {
-  display: none;
-}
-
-.main__contact__form input,
-select {
-  display: block;
-  margin: 0.5em 0;
-  font-weight: bold;
-}
 /* Fin del main */
