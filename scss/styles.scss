@@ -4,6 +4,7 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+@import "./assets/mixins";
 @import "./pages/general-styles";
 @import "./pages/index";
 @import "./pages/faqs";

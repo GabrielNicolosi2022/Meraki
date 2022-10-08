@@ -1,3 +1,11 @@
+.shadowed {
+  box-shadow: 10px 10px 15px 0px #c3b0a0;
+  -webkit-box-shadow: 10px 10px 15px 0px #c3b0a0;
+  -moz-box-shadow: 10px 10px 15px 0px #c3b0a0; }
+
+.shadowed-text, h1, .h1, .main__principal-paragraph {
+  text-shadow: 2px 2px 5px #fcffe7; }
+
 /*!
    * Bootstrap  v5.2.1 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
@@ -8692,8 +8700,7 @@ a {
 
 h1, .h1 {
   font-family: Bebas;
-  letter-spacing: 3px;
-  text-shadow: 2px 2px 5px; }
+  letter-spacing: 3px; }
 
 h2, .h2 {
   font-size: 1rem;
@@ -8702,7 +8709,7 @@ h2, .h2 {
 /* fin estilos generales */
 /* main principal */
 .main__principal-img {
-  box-shadow: 10px 10px 15px #c3b0a0; }
+  box-shadow: 10px 10px 15px 0 #c3b0a0; }
 
 /* main faqs */
 .main__faqs--question {
