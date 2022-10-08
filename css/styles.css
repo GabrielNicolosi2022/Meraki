@@ -8768,29 +8768,22 @@ h2, .h2 {
   padding: 10rem; }
 
 .main__bg--marron-1 {
-  background-color: #dea057; }
+  background-color: #212529; }
   .main__bg--marron-1 .main__principal-title,
   .main__bg--marron-1 .main__principal-paragraph {
-    background-color: #dea057;
-    color: #f8f9fa; }
-
-.main__bg--marron-2 {
-  background-color: #ce9461; }
-  .main__bg--marron-2 .main__principal-title,
-  .main__bg--marron-2 .main__principal-paragraph {
-    background-color: #ce9461;
-    color: #f8f9fa; }
+    background-color: #212529;
+    color: #fcffe7; }
 
 .main__bg--gris-1 {
-  background-color: #fcffe7; }
+  background-color: #dea057; }
   .main__bg--gris-1 .main__principal-title,
   .main__bg--gris-1 .main__principal-paragraph {
-    background-color: #fcffe7;
-    color: #f8f9fa; }
+    background-color: #dea057;
+    color: #fcffe7; }
 
 .main__bg--gris-2 {
   background-color: #e0d8b0; }
   .main__bg--gris-2 .main__principal-title,
   .main__bg--gris-2 .main__principal-paragraph {
-    backgmap-get($color-claro, color )round-color: #e0d8b0;
-    color: #f8f9fa; }
+    background-color: #e0d8b0;
+    color: #fcffe7; }

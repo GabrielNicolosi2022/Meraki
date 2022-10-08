@@ -24,6 +24,7 @@ $gris-2: #e0d8b0;
 $marron-1: #dea057;
 $marron-2: #ce9461;
 
+
 $primary: $blue;
 $secondary: $gray-600;
 $success: $green;
@@ -54,15 +55,11 @@ $theme-colors: (
 
 $categories: (
   "marron-1": (
-    color: $marron-1,
-    lightcolor: false,
-  ),
-  "marron-2": (
-    color: $marron-2,
+    color: $dark,
     lightcolor: false,
   ),
   "gris-1": (
-    color: $gris-1,
+    color: $marron-1,
     lightcolor: true,
   ),
   "gris-2": (

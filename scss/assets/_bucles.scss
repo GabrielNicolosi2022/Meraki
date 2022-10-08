@@ -13,7 +13,7 @@
       @if map-get($color-claro, color) == true {
         color: $dark;
       } @else {
-      color: $light;
+        color: $gris-1;
       }
     }
   }
