@@ -1,0 +1,20 @@
+@for $pd from 1 through 10 {
+  .padding-#{$pd} {
+    padding: 1rem * $pd;
+  }
+}
+
+@each $color, $color-claro in $categories {
+  .main__bg--#{$color} {
+    background-color: map-get($color-claro, color);
+    .main__principal-title,
+    .main__principal-paragraph {
+      background-color: map-get($color-claro, color);
+      @if map-get($color-claro, color) == true {
+        color: $dark;
+      } @else {
+      color: $light;
+      }
+    }
+  }
+}
