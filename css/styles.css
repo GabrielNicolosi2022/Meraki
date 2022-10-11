@@ -4,7 +4,7 @@
   -moz-box-shadow: 10px 10px 15px 0px #c3b0a0; }
 
 .shadowed-text, h1, .h1, .main__principal-paragraph {
-  text-shadow: 2px 2px 5px #fcffe7; }
+  text-shadow: 2px 2px 5px #000; }
 
 /*!
    * Bootstrap  v5.2.1 (https://getbootstrap.com/)
@@ -8726,7 +8726,7 @@ h2, .h2 {
   .img__jobs--murales {
     height: 166px; }
     .img__jobs--murales:hover {
-      transform: scale(1.5);
+      transform: scale(1.1);
       box-shadow: 10px 10px 15px #ebe1d8, -10px -10px 15px #ebe1d8;
       transition: all 5s; }
   .img__jobs:hover {
