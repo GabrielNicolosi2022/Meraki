@@ -1,5 +1,11 @@
 /* main faqs */
 .main__faqs {
+  &-title {
+    @extend .shadowed-text;
+    margin-top: 2rem;
+    font-family: Bebas;
+    letter-spacing: 3px;
+  }
   &--question {
     font-weight: 900;
   }

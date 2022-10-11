@@ -3,7 +3,7 @@
   -webkit-box-shadow: 10px 10px 15px 0px #c3b0a0;
   -moz-box-shadow: 10px 10px 15px 0px #c3b0a0; }
 
-.shadowed-text, h1, .h1, .main__principal-paragraph {
+.shadowed-text, h1, .h1, .main__principal-title, .main__principal-paragraph, .main__faqs-title, .main__jobs-title {
   text-shadow: 2px 2px 5px #000; }
 
 /*!
@@ -8708,10 +8708,20 @@ h2, .h2 {
 
 /* fin estilos generales */
 /* main principal */
+.main__principal-title {
+  margin-top: 2rem;
+  font-family: Bebas;
+  letter-spacing: 3px; }
+
 .main__principal-img {
   box-shadow: 10px 10px 15px 0 #c3b0a0; }
 
 /* main faqs */
+.main__faqs-title {
+  margin-top: 2rem;
+  font-family: Bebas;
+  letter-spacing: 3px; }
+
 .main__faqs--question {
   font-weight: 900; }
 
@@ -8721,6 +8731,11 @@ h2, .h2 {
   font-style: italic; }
 
 /* main jobs */
+.main__jobs-title {
+  margin-top: 2rem;
+  font-family: Bebas;
+  letter-spacing: 3px; }
+
 .img__jobs {
   height: 100px; }
   .img__jobs--murales {

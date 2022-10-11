@@ -1,9 +1,15 @@
 /* main principal */
 .main__principal {
+  &-title {
+    @extend .shadowed-text;
+    margin-top: 2rem;
+    font-family: Bebas;
+    letter-spacing: 3px;
+  }
   &-img {
-    @include box_shadow (4);
+    @include box_shadow(4);
   }
   &-paragraph {
-    @extend .shadowed-text
+    @extend .shadowed-text;
   }
 }

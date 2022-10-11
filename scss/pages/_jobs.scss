@@ -1,4 +1,12 @@
 /* main jobs */
+.main__jobs {
+  &-title {
+    @extend .shadowed-text;
+    margin-top: 2rem;
+    font-family: Bebas;
+    letter-spacing: 3px;
+  }
+}
 .img__jobs {
   height: 100px;
   &--murales {
