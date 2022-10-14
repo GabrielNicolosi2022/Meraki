@@ -8764,6 +8764,9 @@ h2, .h2 {
 .main__principal-img {
   box-shadow: 10px 10px 15px 0 #c3b0a0; }
 
+.display__controls {
+  display: none; }
+
 /* main faqs */
 .main__faqs--question {
   font-weight: 900; }
