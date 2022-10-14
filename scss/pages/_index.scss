@@ -1,10 +1,7 @@
-/* main principal */
 .main__principal {
   &-title {
     @extend .shadowed-text;
-    margin-top: 2rem;
-    font-family: Bebas;
-    letter-spacing: 3px;
+    @extend .title;
   }
   &-img {
     @include box_shadow(4);

@@ -73,6 +73,11 @@ $categories: (
   -moz-box-shadow: 10px 10px 15px 0px rgba(195, 176, 160, 1);
 }
 
-.shadowed-text{
-text-shadow: 2px 2px 5px #000;
+.shadowed-text {
+  text-shadow: 2px 2px 5px #000;
+}
+
+.title {
+  font-family: Bebas;
+  letter-spacing: 3px;
 }

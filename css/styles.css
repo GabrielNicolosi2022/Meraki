@@ -3,8 +3,12 @@
   -webkit-box-shadow: 10px 10px 15px 0px #c3b0a0;
   -moz-box-shadow: 10px 10px 15px 0px #c3b0a0; }
 
-.shadowed-text, h1, .h1, .main__principal-title, .main__principal-paragraph, .main__faqs-title, .main__jobs-title {
+.shadowed-text, .main__principal-title, .main__principal-paragraph, .main__faqs-title, .main__jobs-title, .main__us-title {
   text-shadow: 2px 2px 5px #000; }
+
+.title, .main__principal-title, .main__faqs-title, .main__jobs-title, .main__us-title {
+  font-family: Bebas;
+  letter-spacing: 3px; }
 
 /*!
    * Bootstrap  v5.2.1 (https://getbootstrap.com/)
@@ -8681,84 +8685,6 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-/* Comienzo estilos generales */
-@font-face {
-  font-family: Bebas;
-  src: url(../assets/fonts/bebas-neue.regular.woff); }
-
-body {
-  font-family: "Roboto", sans-serif; }
-
-a {
-  text-decoration: none;
-  color: #fcffe7; }
-
-.main {
-  margin-top: 16vh;
-  background: #de943d;
-  background: linear-gradient(180deg, #de943d 0%, #deaf77 100%); }
-
-h1, .h1 {
-  font-family: Bebas;
-  letter-spacing: 3px; }
-
-h2, .h2 {
-  font-size: 1rem;
-  font-style: italic; }
-
-/* fin estilos generales */
-/* main principal */
-.main__principal-title {
-  margin-top: 2rem;
-  font-family: Bebas;
-  letter-spacing: 3px; }
-
-.main__principal-img {
-  box-shadow: 10px 10px 15px 0 #c3b0a0; }
-
-/* main faqs */
-.main__faqs-title {
-  margin-top: 2rem;
-  font-family: Bebas;
-  letter-spacing: 3px; }
-
-.main__faqs--question {
-  font-weight: 900; }
-
-.main__faqs--response {
-  padding-left: 1em;
-  font-weight: 500;
-  font-style: italic; }
-
-/* main jobs */
-.main__jobs-title {
-  margin-top: 2rem;
-  font-family: Bebas;
-  letter-spacing: 3px; }
-
-.img__jobs {
-  height: 100px; }
-  .img__jobs--murales {
-    height: 166px; }
-    .img__jobs--murales:hover {
-      transform: scale(1.1);
-      box-shadow: 10px 10px 15px #ebe1d8, -10px -10px 15px #ebe1d8;
-      transition: all 5s; }
-  .img__jobs:hover {
-    transform: scale(1.5);
-    box-shadow: 10px 10px 15px #ebe1d8, -10px -10px 15px #ebe1d8;
-    transition: all 5s; }
-
-/* main contact */
-.main__contact__form label {
-  display: none; }
-
-.main__contact__form input,
-.main__contact__form select {
-  display: block;
-  margin: 0.5em 0;
-  font-weight: bold; }
-
 .padding-1 {
   padding: 1rem; }
 
@@ -8809,3 +8735,64 @@ h2, .h2 {
   .main__bg--gris-2 .main__principal-paragraph {
     background-color: #e0d8b0;
     color: #fcffe7; }
+
+/* Comienzo estilos generales */
+@font-face {
+  font-family: Bebas;
+  src: url(../assets/fonts/bebas-neue.regular.woff); }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+a {
+  text-decoration: none;
+  color: #fcffe7; }
+
+.main {
+  padding-top: 20vh;
+  background: #de943d;
+  background: linear-gradient(180deg, #de943d 0%, #deaf77 100%); }
+  @media (min-width: 768px) {
+    .main {
+      padding-top: 14vh; } }
+
+h2, .h2 {
+  font-size: 1rem;
+  font-style: italic; }
+
+/* fin estilos generales */
+.main__principal-img {
+  box-shadow: 10px 10px 15px 0 #c3b0a0; }
+
+/* main faqs */
+.main__faqs--question {
+  font-weight: 900; }
+
+.main__faqs--response {
+  padding-left: 1em;
+  font-weight: 500;
+  font-style: italic; }
+
+/* main jobs */
+.img__jobs {
+  height: 100px; }
+  .img__jobs--murales {
+    height: 166px; }
+    .img__jobs--murales:hover {
+      transform: scale(1.1);
+      box-shadow: 10px 10px 15px #ebe1d8, -10px -10px 15px #ebe1d8;
+      transition: all 5s; }
+  .img__jobs:hover {
+    transform: scale(1.5);
+    box-shadow: 10px 10px 15px #ebe1d8, -10px -10px 15px #ebe1d8;
+    transition: all 5s; }
+
+/* main contact */
+.main__contact__form label {
+  display: none; }
+
+.main__contact__form input,
+.main__contact__form select {
+  display: block;
+  margin: 0.5em 0;
+  font-weight: bold; }

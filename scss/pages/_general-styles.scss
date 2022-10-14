@@ -13,17 +13,14 @@ a {
   color: #fcffe7;
 }
 .main {
-  margin-top: 16vh;
+  padding-top: 20vh;
   background: #de943d;
   background: linear-gradient(180deg, #de943d 0%, #deaf77 100%);
-  
+  @media (min-width: 768px) {
+    padding-top: 14vh;
+  }
 }
 
-h1 {
-  @extend .shadowed-text;
-  font-family: Bebas;
-  letter-spacing: 3px;
-}
 h2 {
   font-size: 1rem;
   font-style: italic;

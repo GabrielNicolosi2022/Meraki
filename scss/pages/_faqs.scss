@@ -2,9 +2,7 @@
 .main__faqs {
   &-title {
     @extend .shadowed-text;
-    margin-top: 2rem;
-    font-family: Bebas;
-    letter-spacing: 3px;
+    @extend .title;
   }
   &--question {
     font-weight: 900;
