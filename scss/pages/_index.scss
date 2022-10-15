@@ -3,13 +3,17 @@
     @extend .shadowed-text;
     @extend .title__principal;
   }
-  &-img {
-    @include box_shadow(4);
-  }
-  &-paragraph {
-    @extend .shadowed-text;
+  &__containerOne {
+    max-width: 992px;
+    &-img {
+      @include box_shadow(4);
+    }
+    &-paragraph {
+      @extend .shadowed-text;
+    }
   }
 }
-.display__controls{
+
+.display__controls {
   display: none;
 }

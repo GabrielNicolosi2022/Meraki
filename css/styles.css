@@ -3,7 +3,7 @@
   -webkit-box-shadow: 10px 10px 15px 0px #c3b0a0;
   -moz-box-shadow: 10px 10px 15px 0px #c3b0a0; }
 
-.shadowed-text, .main__principal-title, .main__principal-paragraph, .main__faqs-title, .main__jobs-title, .main__us-title {
+.shadowed-text, .main__principal-title, .main__principal__containerOne-paragraph, .main__faqs-title, .main__jobs-title, .main__us-title {
   text-shadow: 2px 2px 5px #000; }
 
 .title__principal, .main__principal-title {
@@ -8766,8 +8766,10 @@ h2, .h2 {
   font-style: italic; }
 
 /* fin estilos generales */
-.main__principal-img {
-  box-shadow: 10px 10px 15px 0 #c3b0a0; }
+.main__principal__containerOne {
+  max-width: 992px; }
+  .main__principal__containerOne-img {
+    box-shadow: 10px 10px 15px 0 #c3b0a0; }
 
 .display__controls {
   display: none; }
