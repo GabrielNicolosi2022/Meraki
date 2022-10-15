@@ -1,7 +1,7 @@
 .main__principal {
   &-title {
     @extend .shadowed-text;
-    @extend .title;
+    @extend .title__principal;
   }
   &-img {
     @include box_shadow(4);

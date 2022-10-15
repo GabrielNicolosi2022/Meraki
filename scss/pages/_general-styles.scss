@@ -1,7 +1,11 @@
 /* Comienzo estilos generales */
 @font-face {
   font-family: Bebas;
-  src: url(../assets/fonts/bebas-neue.regular.woff);
+  src: url(../../assets/fonts/bebas-neue.regular.woff);
+}
+@font-face {
+  font-family: Jokerman;
+  src: url(../../assets/fonts/Jokerman-Regular.ttf);
 }
 
 body {
@@ -16,9 +20,9 @@ a {
   padding-top: 20vh;
   background: #de943d;
   background: linear-gradient(180deg, #de943d 0%, #deaf77 100%);
-  @media (min-width: 768px) {
-    padding-top: 14vh;
-  }
+  // @media (min-width: 768px) {
+  //   padding-top: 20vh;
+  // }
 }
 
 h2 {

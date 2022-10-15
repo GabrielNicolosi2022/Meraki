@@ -6,7 +6,11 @@
 .shadowed-text, .main__principal-title, .main__principal-paragraph, .main__faqs-title, .main__jobs-title, .main__us-title {
   text-shadow: 2px 2px 5px #000; }
 
-.title, .main__principal-title, .main__faqs-title, .main__jobs-title, .main__us-title {
+.title__principal, .main__principal-title {
+  font-family: jokerman;
+  letter-spacing: 3px; }
+
+.title, .main__faqs-title, .main__jobs-title, .main__us-title {
   font-family: Bebas;
   letter-spacing: 3px; }
 
@@ -8739,7 +8743,11 @@ textarea.form-control-lg {
 /* Comienzo estilos generales */
 @font-face {
   font-family: Bebas;
-  src: url(../assets/fonts/bebas-neue.regular.woff); }
+  src: url(../../assets/fonts/bebas-neue.regular.woff); }
+
+@font-face {
+  font-family: Jokerman;
+  src: url(../../assets/fonts/Jokerman-Regular.ttf); }
 
 body {
   font-family: "Roboto", sans-serif; }
@@ -8752,9 +8760,6 @@ a {
   padding-top: 20vh;
   background: #de943d;
   background: linear-gradient(180deg, #de943d 0%, #deaf77 100%); }
-  @media (min-width: 768px) {
-    .main {
-      padding-top: 14vh; } }
 
 h2, .h2 {
   font-size: 1rem;
