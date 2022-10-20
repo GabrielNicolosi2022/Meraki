@@ -8742,12 +8742,12 @@ textarea.form-control-lg {
 
 /* Comienzo estilos generales */
 @font-face {
-  font-family: Bebas;
-  src: url(../../assets/fonts/bebas-neue.regular.woff); }
-
-@font-face {
   font-family: Jokerman;
   src: url(../../assets/fonts/Jokerman-Regular.ttf); }
+
+@font-face {
+  font-family: Bebas;
+  src: url(../../assets/fonts/bebas-neue.regular.woff); }
 
 body {
   font-family: "Roboto", sans-serif; }
