@@ -18,20 +18,25 @@ $gray-600: #6c757d;
 $gray-700: #495057;
 $gray-800: #343a40;
 $gray-900: #212529;
-$black: #000;
+$black: #000; // footer
 $gris-1: #fcffe7;
 $gris-2: #e0d8b0;
 $marron-1: #dea057;
 $marron-2: #ce9461;
+$color1: #8f1414; //primary
+$color2: #e50e0e; //danger
+$color3: #f3450f; //neworange
+$color4: #fcac03; //warning
 
-$primary: $blue;
+$primary: $color1;
 $secondary: $gray-600;
 $success: $green;
 $info: $cyan;
-$warning: $yellow;
-$danger: $red;
+$warning: $color4;
+$danger: $color2;
 $light: $gray-100;
 $dark: $gray-900;
+$neworange: $color3;
 $gris-1: $gris-1;
 $gris-2: $gris-2;
 $marron-1: $marron-1;
@@ -46,6 +51,7 @@ $theme-colors: (
   "danger": $danger,
   "light": $light,
   "dark": $dark,
+  "neworange": $neworange,
   "marron-1": $marron-1,
   "marron-2": $marron-2,
   "gris-1": $gris-1,

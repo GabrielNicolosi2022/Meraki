@@ -23,9 +23,12 @@ a {
   color: #fcffe7;
 }
 .main {
-  padding-top: 20vh;
-  background: #de943d;
-  background: linear-gradient(180deg, #de943d 0%, #deaf77 100%);
+  padding-top: 18vh;
+  background-color: #f3450f;
 }
-
+.footer{
+  a:hover {
+    color: #ffc107;
+  }
+}
 /* fin estilos generales */
