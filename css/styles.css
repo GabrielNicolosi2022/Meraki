@@ -6,13 +6,18 @@
 .shadowed-text, .main__principal-title, .main__principal__containerOne-paragraph, .main__faqs-title, .main__jobs-title, .main__us-title {
   text-shadow: 2px 2px 5px #000; }
 
-.title__principal, .main__principal-title {
-  font-family: jokerman;
+.title, .main__principal-title, .main__faqs-title, .main__jobs-title, .main__us-title {
+  font-family: Tempus Sans ITC;
   letter-spacing: 3px; }
 
-.title, .main__faqs-title, .main__jobs-title, .main__us-title {
-  font-family: Bebas;
-  letter-spacing: 3px; }
+.subtitle, .main__principal-subtitle, .main__faqs-subtitle, .main__us-subtitle {
+  font-family: Tempus Sans ITC;
+  font-size: 1.5rem; }
+
+.paragraph, .main__faqs-paragraph, .main__us-paragraph {
+  font-family: Tempus Sans ITC;
+  font-weight: bold;
+  font-size: 1rem; }
 
 /*!
    * Bootstrap  v5.2.1 (https://getbootstrap.com/)
@@ -8742,12 +8747,9 @@ textarea.form-control-lg {
 
 /* Comienzo estilos generales */
 @font-face {
-  font-family: Jokerman;
-  src: url(../../assets/fonts/Jokerman-Regular.ttf); }
-
-@font-face {
-  font-family: Bebas;
-  src: url(../../assets/fonts/bebas-neue.regular.woff); }
+  font-family: "Tempus Sans ITC";
+  src: url("//db.onlinewebfonts.com/t/261506be3344b3806eefa054f0f6fbf1.eot");
+  src: url("//db.onlinewebfonts.com/t/261506be3344b3806eefa054f0f6fbf1.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/261506be3344b3806eefa054f0f6fbf1.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/261506be3344b3806eefa054f0f6fbf1.woff") format("woff"), url("//db.onlinewebfonts.com/t/261506be3344b3806eefa054f0f6fbf1.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/261506be3344b3806eefa054f0f6fbf1.svg#Tempus Sans ITC") format("svg"); }
 
 body {
   font-family: "Roboto", sans-serif; }
@@ -8761,20 +8763,21 @@ a {
   background: #de943d;
   background: linear-gradient(180deg, #de943d 0%, #deaf77 100%); }
 
-h2, .h2 {
-  font-size: 1rem;
-  font-style: italic; }
-
 /* fin estilos generales */
 .main__principal__containerOne {
   max-width: 992px; }
   .main__principal__containerOne-img {
     box-shadow: 10px 10px 15px 0 #c3b0a0; }
+  .main__principal__containerOne-paragraph {
+    font-family: Tempus Sans ITC; }
 
 .display__controls {
   display: none; }
 
 /* main faqs */
+.main__faqs-paragraph {
+  font-size: 1.2rem; }
+
 .main__faqs--question {
   font-weight: 900; }
 

@@ -4,6 +4,13 @@
     @extend .shadowed-text;
     @extend .title;
   }
+  &-subtitle {
+    @extend .subtitle;
+  }
+  &-paragraph {
+    @extend .paragraph;
+    font-size: 1.2rem;
+  }
   &--question {
     font-weight: 900;
   }

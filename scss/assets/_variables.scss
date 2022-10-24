@@ -76,11 +76,18 @@ $categories: (
 .shadowed-text {
   text-shadow: 2px 2px 5px #000;
 }
-.title__principal{
-  font-family: jokerman;
+
+.title {
+  font-family: Tempus Sans ITC;
   letter-spacing: 3px;
 }
-.title {
-  font-family: Bebas;
-  letter-spacing: 3px;
+.subtitle {
+  font-family: Tempus Sans ITC;
+  font-size: 1.5rem;
+}
+
+.paragraph {
+  font-family: Tempus Sans ITC;
+  font-weight: bold;
+  font-size: 1rem;
 }

@@ -1,7 +1,10 @@
 .main__principal {
   &-title {
     @extend .shadowed-text;
-    @extend .title__principal;
+    @extend .title;
+  }
+  &-subtitle {
+    @extend .subtitle;
   }
   &__containerOne {
     max-width: 992px;
@@ -9,6 +12,7 @@
       @include box_shadow(4);
     }
     &-paragraph {
+      font-family: Tempus Sans ITC;
       @extend .shadowed-text;
     }
   }

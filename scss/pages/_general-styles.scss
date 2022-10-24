@@ -1,13 +1,19 @@
 /* Comienzo estilos generales */
 @font-face {
-  font-family: Jokerman;
-  src: url(../../assets/fonts/Jokerman-Regular.ttf);
+  font-family: "Tempus Sans ITC";
+  src: url("//db.onlinewebfonts.com/t/261506be3344b3806eefa054f0f6fbf1.eot");
+  src: url("//db.onlinewebfonts.com/t/261506be3344b3806eefa054f0f6fbf1.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/261506be3344b3806eefa054f0f6fbf1.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/261506be3344b3806eefa054f0f6fbf1.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/261506be3344b3806eefa054f0f6fbf1.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/261506be3344b3806eefa054f0f6fbf1.svg#Tempus Sans ITC")
+      format("svg");
 }
 
-@font-face {
-  font-family: Bebas;
-  src: url(../../assets/fonts/bebas-neue.regular.woff);
-}  
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -22,8 +28,4 @@ a {
   background: linear-gradient(180deg, #de943d 0%, #deaf77 100%);
 }
 
-h2 {
-  font-size: 1rem;
-  font-style: italic;
-}
 /* fin estilos generales */
