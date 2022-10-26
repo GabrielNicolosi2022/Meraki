@@ -8834,6 +8834,9 @@ a {
 .main {
   padding-top: 12vh;
   background-color: #f3450f; }
+  @media (min-width: 992px) {
+    .main {
+      padding-top: 18vh; } }
 
 .nav-item a {
   color: #ffc107; }
@@ -8849,11 +8852,16 @@ a {
 
 /* fin estilos generales */
 .main__principal__containerOne {
-  max-width: 992px; }
+  text-align: center; }
   .main__principal__containerOne-img {
+    width: 75%;
     box-shadow: 10px 10px 15px 0 #c3b0a0; }
+    @media (min-width: 992px) {
+      .main__principal__containerOne-img {
+        width: 100%; } }
   .main__principal__containerOne-paragraph {
-    font-family: Tempus Sans ITC; }
+    font-family: Tempus_Sans_ITC;
+    text-align: center; }
 
 .display__controls {
   display: none; }

@@ -7,12 +7,17 @@
     @extend .subtitle;
   }
   &__containerOne {
-    max-width: 992px;
+    text-align: center;
     &-img {
+      width: 75%;
       @include box_shadow(4);
+      @media (min-width: 992px) {
+        width: 100%;
+      }
     }
     &-paragraph {
-      font-family: Tempus Sans ITC;
+      font-family: Tempus_Sans_ITC;
+      text-align: center;
       @extend .shadowed-text;
     }
   }

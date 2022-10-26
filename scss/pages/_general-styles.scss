@@ -15,6 +15,9 @@ a {
 .main {
   padding-top: 12vh;
   background-color: #f3450f;
+  @media (min-width: 992px) {
+    padding-top: 18vh;
+  }
 }
 .nav-item {
   a {
