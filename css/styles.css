@@ -7,15 +7,15 @@
   text-shadow: 2px 2px 5px #000; }
 
 .title, .main__principal-title, .main__faqs-title, .main__jobs-title, .main__us-title {
-  font-family: Tempus Sans ITC;
+  font-family: Tempus_Sans_ITC;
   letter-spacing: 3px; }
 
 .subtitle, .main__principal-subtitle, .main__faqs-subtitle, .main__us-subtitle {
-  font-family: Tempus Sans ITC;
-  font-size: 1.5rem; }
+  font-family: Tempus_Sans_ITC;
+  font-size: 0.75rem; }
 
 .paragraph, .main__faqs-paragraph, .main__us-paragraph {
-  font-family: Tempus Sans ITC;
+  font-family: Tempus_Sans_ITC;
   font-weight: bold;
   font-size: 1.2rem; }
 
@@ -8820,9 +8820,9 @@ textarea.form-control-lg {
 
 /* Comienzo estilos generales */
 @font-face {
-  font-family: "Tempus Sans ITC";
-  src: url("//db.onlinewebfonts.com/t/261506be3344b3806eefa054f0f6fbf1.eot");
-  src: url("//db.onlinewebfonts.com/t/261506be3344b3806eefa054f0f6fbf1.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/261506be3344b3806eefa054f0f6fbf1.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/261506be3344b3806eefa054f0f6fbf1.woff") format("woff"), url("//db.onlinewebfonts.com/t/261506be3344b3806eefa054f0f6fbf1.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/261506be3344b3806eefa054f0f6fbf1.svg#Tempus Sans ITC") format("svg"); }
+  font-family: Tempus_Sans_ITC;
+  src: url(../../assets/fonts/tempsitc.ttf);
+  font-display: swap; }
 
 body {
   font-family: "Roboto", sans-serif; }
@@ -8835,8 +8835,17 @@ a {
   padding-top: 18vh;
   background-color: #f3450f; }
 
+.nav-item a {
+  color: #ffc107; }
+
+.nav-item a:hover {
+  color: #f3450f; }
+
 .footer a:hover {
   color: #ffc107; }
+
+.dropdown-item:hover {
+  background-color: #8f1414; }
 
 /* fin estilos generales */
 .main__principal__containerOne {
