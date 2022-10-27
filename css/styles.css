@@ -3,7 +3,7 @@
   -webkit-box-shadow: 10px 10px 15px 0px #c3b0a0;
   -moz-box-shadow: 10px 10px 15px 0px #c3b0a0; }
 
-.shadowed-text, .main__principal-title, .main__principal__containerOne-paragraph, .main__faqs-title, .main__jobs-title, .main__us-title {
+.shadowed-text, .main__principal-title, .main__principal__container-paragraph, .main__faqs-title, .main__jobs-title, .main__us-title {
   text-shadow: 2px 2px 5px #000; }
 
 .title, .main__principal-title, .main__faqs-title, .main__jobs-title, .main__us-title {
@@ -23,13 +23,13 @@
     .subtitle, .main__principal-subtitle, .main__faqs-subtitle, .main__jobs-subtitle, .main__us-subtitle {
       font-size: 2.5rem; } }
 
-.main__principal__containerOne-paragraph, .main__faqs-paragraph, .main__us-paragraph, .paragraph {
+.main__principal__container-paragraph, .main__faqs-paragraph, .main__us-paragraph, .paragraph {
   font-family: "Shalimar", cursive;
   font-weight: 400;
   font-size: 1.7rem;
   letter-spacing: 2px; }
   @media (min-width: 992px) {
-    .main__principal__containerOne-paragraph, .main__faqs-paragraph, .main__us-paragraph, .paragraph {
+    .main__principal__container-paragraph, .main__faqs-paragraph, .main__us-paragraph, .paragraph {
       font-size: 2.3rem; } }
 
 /*!
@@ -8859,15 +8859,15 @@ a {
   background-color: #8f1414; }
 
 /* fin estilos generales */
-.main__principal__containerOne {
+.main__principal__container {
   text-align: center; }
-  .main__principal__containerOne-img {
+  .main__principal__container-img {
     width: 75%;
     box-shadow: 10px 10px 15px 0 #c3b0a0; }
     @media (min-width: 992px) {
-      .main__principal__containerOne-img {
+      .main__principal__container-img {
         width: 100%; } }
-  .main__principal__containerOne-paragraph {
+  .main__principal__container-paragraph {
     font-family: "Shalimar", cursive;
     font-weight: 400;
     text-align: center; }

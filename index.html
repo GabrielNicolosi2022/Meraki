@@ -119,9 +119,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 mx-auto pt-3">
-            <h1
-              class="pb-4 text-center text-gris-1 main__principal-title"
-            >
+            <h1 class="pb-4 text-center text-gris-1 main__principal-title">
               Meraki
             </h1>
             <h2 class="text-center text-gris-1 p-3 main__principal-subtitle">
@@ -130,13 +128,13 @@
 
             <!-- Imagen de portada -->
             <div
-              class="card my-2 mx-auto pb-lg-4 bg-transparent border-0 main__principal__containerOne"
+              class="card my-2 mx-auto pb-lg-4 bg-transparent border-0 main__principal__container"
             >
               <div class="row g-0">
                 <div class="col-md-6">
                   <img
                     src="./assets/images/img_presentacion.jpg"
-                    class="img-fluid rounded-5 main__principal__containerOne-img"
+                    class="img-fluid rounded-5 main__principal__container-img"
                     alt="Imágen de presentación"
                   />
                 </div>
@@ -144,7 +142,7 @@
                 <div class="col-md-6 my-auto">
                   <div class="card-body">
                     <p
-                      class="card-text text-md-start text-gris-1 p-lg-4 main__principal__containerOne-paragraph"
+                      class="card-text text-md-start text-gris-1 p-lg-4 main__principal__container-paragraph"
                     >
                       Dale vida a tus paredes, dales un toque diferente, dales
                       Meraki.
@@ -156,20 +154,38 @@
             </div>
           </div>
         </div>
-        <!-- Video presentación -->
-        <div class="row">
-          <div class="col-12 w-75 mx-auto my-4" style="max-width: 512px">
-            <video
-              class="img-fluid main__principal-img"
-              src="./assets/video/presentacion.mp4"
-              controls
-              autoplay
-            ></video>
+        <div
+          class="card my-4 mx-auto pb-lg-4 bg-transparent border-0 main__principal__container"
+        >
+          <div class="row g-0">
+            <!-- texto de video -->
+            <div class="col-md-6 my-auto">
+              <div class="card-body">
+                <p
+                  class="card-text text-md-end text-gris-1 p-lg-4 main__principal__container-paragraph"
+                >
+                  Hacemos cuadros decorativos pintados a mano.
+                </p>
+              </div>
+            </div>
+            <!-- Video presentación -->
+            <div class="col-md-6 mx-auto w-50" style="max-width: 512px">
+              <video
+                class="img-fluid main__principal-img"
+                src="./assets/video/presentacion.mp4"
+                controls
+                autoplay
+              ></video>
+            </div>
           </div>
         </div>
+        <!-- contenedor de imagenes -->
+
         <!-- Carrousel Clientes -->
         <div class="row">
-          <h2 class="text-gris-1 text-center main__principal-subtitle">Nuestros Clientes</h2>
+          <h2 class="text-gris-1 text-center main__principal-subtitle">
+            Nuestros Clientes
+          </h2>
           <div
             id="carouselExampleCaptions"
             class="carousel slide mb-3"
