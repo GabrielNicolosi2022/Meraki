@@ -17,6 +17,7 @@
     }
     &-paragraph {
       font-family: "Shalimar", cursive;
+      font-weight: 400;
       text-align: center;
       @extend .shadowed-text;
       @extend .paragraph;

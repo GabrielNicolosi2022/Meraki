@@ -8,6 +8,7 @@
 
 .title, .main__principal-title, .main__faqs-title, .main__jobs-title, .main__us-title {
   font-family: "Shalimar", cursive;
+  font-weight: 400;
   font-size: 3rem;
   letter-spacing: 3px; }
   @media (min-width: 992px) {
@@ -16,6 +17,7 @@
 
 .subtitle, .main__principal-subtitle, .main__faqs-subtitle, .main__jobs-subtitle, .main__us-subtitle {
   font-family: "Shalimar", cursive;
+  font-weight: 400;
   font-size: 1rem; }
   @media (min-width: 992px) {
     .subtitle, .main__principal-subtitle, .main__faqs-subtitle, .main__jobs-subtitle, .main__us-subtitle {
@@ -23,6 +25,7 @@
 
 .main__principal__containerOne-paragraph, .main__faqs-paragraph, .main__us-paragraph, .paragraph {
   font-family: "Shalimar", cursive;
+  font-weight: 400;
   font-size: 1.7rem;
   letter-spacing: 2px; }
   @media (min-width: 992px) {
@@ -8866,6 +8869,7 @@ a {
         width: 100%; } }
   .main__principal__containerOne-paragraph {
     font-family: "Shalimar", cursive;
+    font-weight: 400;
     text-align: center; }
 
 .display__controls {
