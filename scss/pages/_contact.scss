@@ -10,3 +10,6 @@
     font-weight: bold;
   }
 }
+.paragraph{
+  @extend .paragraph;
+}

@@ -16,9 +16,10 @@
       }
     }
     &-paragraph {
-      font-family: Tempus_Sans_ITC;
+      font-family: "Shalimar", cursive;
       text-align: center;
       @extend .shadowed-text;
+      @extend .paragraph;
     }
   }
 }

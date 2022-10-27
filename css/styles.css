@@ -7,17 +7,18 @@
   text-shadow: 2px 2px 5px #000; }
 
 .title, .main__principal-title, .main__faqs-title, .main__jobs-title, .main__us-title {
-  font-family: Tempus_Sans_ITC;
+  font-family: 'Shalimar', cursive;
+  font-size: 6rem;
   letter-spacing: 3px; }
 
-.subtitle, .main__principal-subtitle, .main__faqs-subtitle, .main__us-subtitle {
-  font-family: Tempus_Sans_ITC;
-  font-size: 0.75rem; }
+.subtitle, .main__principal-subtitle, .main__faqs-subtitle, .main__jobs-subtitle, .main__us-subtitle {
+  font-family: 'Shalimar', cursive;
+  font-size: 2.5rem; }
 
-.paragraph, .main__faqs-paragraph, .main__us-paragraph {
-  font-family: Tempus_Sans_ITC;
-  font-weight: bold;
-  font-size: 1.2rem; }
+.main__principal__containerOne-paragraph, .main__faqs-paragraph, .main__us-paragraph, .paragraph {
+  font-family: 'Shalimar', cursive;
+  font-size: 2.3rem;
+  letter-spacing: 2px; }
 
 /*!
    * Bootstrap  v5.2.1 (https://getbootstrap.com/)
@@ -8819,11 +8820,6 @@ textarea.form-control-lg {
     color: #fcffe7; }
 
 /* Comienzo estilos generales */
-@font-face {
-  font-family: Tempus_Sans_ITC;
-  src: url(../../assets/fonts/tempsitc.ttf);
-  font-display: swap; }
-
 body {
   font-family: "Roboto", sans-serif; }
 
@@ -8860,7 +8856,7 @@ a {
       .main__principal__containerOne-img {
         width: 100%; } }
   .main__principal__containerOne-paragraph {
-    font-family: Tempus_Sans_ITC;
+    font-family: "Shalimar", cursive;
     text-align: center; }
 
 .display__controls {

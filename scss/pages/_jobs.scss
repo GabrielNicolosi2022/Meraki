@@ -4,6 +4,9 @@
     @extend .shadowed-text;
     @extend .title;
   }
+  &-subtitle {
+    @extend .subtitle;
+  }
 }
 .img__jobs {
   height: 100px;
