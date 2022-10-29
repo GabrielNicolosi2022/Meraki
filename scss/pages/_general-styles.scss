@@ -23,7 +23,7 @@ a {
   }
 }
 .nav-link.active {
-      color: #fcffe7!important;
+  color: #fcffe7 !important;
 }
 .footer {
   a:hover {
@@ -34,4 +34,17 @@ a {
 .dropdown-item:hover {
   background-color: #8f1414;
 }
+
+.cta {
+  position: fixed;
+  top: 42vh;
+  left: 1%;
+  @media (min-width: 768px) {
+    left: 3%;
+  }
+  &__link {
+    width: 150%;
+  }
+}
 /* fin estilos generales */
+//

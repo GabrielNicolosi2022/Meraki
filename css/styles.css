@@ -8861,6 +8861,16 @@ a {
 .dropdown-item:hover {
   background-color: #8f1414; }
 
+.cta {
+  position: fixed;
+  top: 42vh;
+  left: 1%; }
+  @media (min-width: 768px) {
+    .cta {
+      left: 3%; } }
+  .cta__link {
+    width: 150%; }
+
 /* fin estilos generales */
 .main__principal__container {
   text-align: center; }
