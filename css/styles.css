@@ -13,7 +13,7 @@
   letter-spacing: 3px; }
   @media (min-width: 992px) {
     .title, .main__principal-title, .main__faqs-title, .main__jobs-title, .main__us-title {
-      font-size: 6rem; } }
+      font-size: 5rem; } }
 
 .subtitle, .main__principal-subtitle, .main__faqs-subtitle, .main__jobs-subtitle, .main__us-subtitle {
   font-family: "Shalimar", cursive;
